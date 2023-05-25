@@ -79,7 +79,8 @@ body{
 }
 
 .fortnite-img:hover{
-    background-color: #71e66e;
+    background-image:url(Rectangle\ 169.png);
+    background-repeat: no-repeat;
 }
 
 .dota-img{
