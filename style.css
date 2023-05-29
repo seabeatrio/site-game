@@ -43,6 +43,7 @@ body{
 
 .btn-purple:hover{
     background-color: #753dca;
+   
 }
 
 @media (max-width:1400px){
@@ -51,23 +52,30 @@ body{
 }
 
 .gta-img{
-    flex: 1.5;
+    background-color: rgba(139, 114, 255, 1);
+    flex: 2.5;
     height: 330px;
     display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    justify-content: flex-end;
+    justify-items: center;
     margin-right: 8px;
     border-radius: 56px;
-    background-color: #8b72ff;
     transition: 0.2s;
+    background-image:url(img/Rectangle\ 166.png);
+    background-repeat: no-repeat;
+
 }
 
 .gta-img:hover{
-    background-color: #8d46f6;
+    flex : 2.5;
+    background: rgba(141, 70, 246, 1);
+    background-image:url(img/Rectangle\ 167.png);
+    z-index: 10;
+    background-repeat: no-repeat;
 }
 
 .fortnite-img{
-    flex: 1;
+    flex: 1.5;
     height: 330px;
     display: flex;
     justify-content: center;
@@ -76,10 +84,15 @@ body{
     border-radius: 56px;
     background-color: #fdf386;
     transition: 0.2s;
+    background-image:url(img/Rectangle\ 168.png);
+    z-index: 10;
+    background-repeat: no-repeat;
 }
 
 .fortnite-img:hover{
-    background-image:url(Rectangle\ 169.png);
+    background-color: rgba(113, 230, 110, 1);
+    background-image:url(img/Rectangle\ 169.png);
+    z-index: 10;
     background-repeat: no-repeat;
 }
 
@@ -88,15 +101,21 @@ body{
     height: 330px;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+
     margin-top: 16px;
     border-radius: 56px;
     background-color: #69adfd;
     transition: 0.2s;
+    background-image:url(img/Rectangle\ 169\ \(1\).png);
+    z-index: 10;
+    background-repeat: no-repeat;
 }
 
 .dota-img:hover{
     background-color: #fcb8ff;
+    background-image:url(img/Rectangle\ 170.png);
+    z-index: 10;
+    background-repeat: no-repeat;
 }
 
 @media (max-width:420px){
@@ -131,3 +150,5 @@ body{
 .footer-link{
     text-decoration:none;
 }
+
+
