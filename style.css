@@ -1,4 +1,4 @@
-import math
+
 *{
     margin: 0;
     box-sizing: border-box;
@@ -21,7 +21,23 @@ body{
     .nav-link:nth-child(2){margin: 0 !important;}
     .btn-purple{
         display: block;
-        margin: 40px 0;
+        margin: 0px 0px;
+    }
+    .hero-desc{
+        position: relative;;
+        right:200px;
+    }
+    .btn{
+        
+        position: relative;;
+        right:200px;
+        margin-top:10px;
+        margin-bottom:30px;
+        display:inline-block;
+    }
+    .hero-title{
+       position: relative;;
+       right:200px;
     }
 }
 
@@ -53,8 +69,9 @@ body{
 
 .gta-img{
     background-color: rgba(139, 114, 255, 1);
-    flex: 2.5;
+    flex : 0.53;
     height: 330px;
+    width:20px;
     display: flex;
     justify-content: flex-end;
     justify-items: center;
@@ -67,7 +84,9 @@ body{
 }
 
 .gta-img:hover{
-    flex : 2.5;
+    flex : 0.53;
+    height: 330px;
+    
     background: rgba(141, 70, 246, 1);
     background-image:url(img/Rectangle\ 167.png);
     z-index: 10;
@@ -75,7 +94,8 @@ body{
 }
 
 .fortnite-img{
-    flex: 1.5;
+    flex : 0.3;
+    height: 330px;
     height: 330px;
     display: flex;
     justify-content: center;
@@ -84,29 +104,32 @@ body{
     border-radius: 56px;
     background-color: #fdf386;
     transition: 0.2s;
-    background-image:url(img/Rectangle\ 168.png);
+    background-image:url(img/seapay.png);
     z-index: 10;
     background-repeat: no-repeat;
 }
 
 .fortnite-img:hover{
+    flex : 0.3;
+    height: 330px;
+    height: 330px;
     background-color: rgba(113, 230, 110, 1);
-    background-image:url(img/Rectangle\ 169.png);
+    background-image:url(img/qwert.png);
     z-index: 10;
     background-repeat: no-repeat;
 }
 
 .dota-img{
-    width: 100%;
     height: 330px;
     display: flex;
-    justify-content: center;
-
+    
+    flex:1;
     margin-top: 16px;
     border-radius: 56px;
     background-color: #69adfd;
     transition: 0.2s;
     background-image:url(img/Rectangle\ 169\ \(1\).png);
+    justify-content: center;
     z-index: 10;
     background-repeat: no-repeat;
 }
@@ -115,6 +138,7 @@ body{
     background-color: #fcb8ff;
     background-image:url(img/Rectangle\ 170.png);
     z-index: 10;
+    flex:1;
     background-repeat: no-repeat;
 }
 
@@ -135,7 +159,17 @@ body{
 .footer-link:nth-child(2){
     margin:0px;
 }
-
+.hero-desc{
+    display: block;
+    margin-right:10px;
+}
+.btn{
+    
+    margin-left:0px;
+}
+.hero-title{
+    margin-left:0px;
+}
 }
 .logo{
     animation:rotatind  8s infinite
@@ -150,5 +184,35 @@ body{
 .footer-link{
     text-decoration:none;
 }
-
-
+.dota-box{
+    height:calc(100vh - 112px);
+    background-image:url(./imgas/Картинка.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: contain;
+}
+.gta-box{
+    height:calc(100vh - 112px);
+    background-image:url(./imgas/GTA-V\ 1.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: contain;
+}
+.fort-box{
+    height:calc(100vh - 112px);
+    background-image:url(./imgas/Картинка\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: contain;
+}
+.hero-desc{
+    display: block;
+    margin-left:220px;
+}
+.btn{
+    
+    margin-left:220px;
+}
+.hero-title{
+    margin-left:220px;
+}
